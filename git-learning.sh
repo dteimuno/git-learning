@@ -39,3 +39,9 @@ git branch
 
 #delete branch
 git branch -d [BRANCH_NAME]
+
+#merge branch. Assuming your side branch is signup/feature
+##first change your branch to the master and then git merge [side-branch]
+###in full steps:
+git checkout main
+git merge feature/signup
